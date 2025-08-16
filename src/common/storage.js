@@ -6,7 +6,7 @@ export const getStorage = async (key) => {
   const data = await chrome.storage.sync.get(key);
   return data[CHROME_SYNC_STORAGE_THEME_KEY]
     ? data[CHROME_SYNC_STORAGE_THEME_KEY]
-    : THEMES.pulsating;
+    : THEMES.leftBorder;
 };
 
 export const setStorage = (key, value) => {

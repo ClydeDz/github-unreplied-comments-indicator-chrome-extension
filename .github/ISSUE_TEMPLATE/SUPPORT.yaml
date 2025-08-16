@@ -22,4 +22,4 @@ body:
     id: extension
     attributes:
       label: Extension version
-      placeholder: ex. LinkedIn Article Tools 1.0.0
+      placeholder: ex. GitHub Unreplied Comments Indicator 1.0.0

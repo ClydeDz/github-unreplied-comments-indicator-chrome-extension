@@ -10,6 +10,9 @@ body > div {
   padding: 12px;
   margin-block: 12px;
 }
+main {
+  margin-block: 30px;
+}
 .guci-selection-header {
   align-items: center;
   margin-block: 20px;
