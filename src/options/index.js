@@ -3,16 +3,12 @@ import {
   setStorage,
   CHROME_SYNC_STORAGE_THEME_KEY,
 } from "../common/storage";
-import { THEMES } from "../common/themes";
 
 const SELECTED_TEXT = "(Selected)";
 const UNSELECTED_TEXT = "(Unselected)";
 
 document.addEventListener("DOMContentLoaded", async function () {
-  const storageTheme = await getStorage(CHROME_SYNC_STORAGE_THEME_KEY);
-  const theme = storageTheme[CHROME_SYNC_STORAGE_THEME_KEY]
-    ? storageTheme[CHROME_SYNC_STORAGE_THEME_KEY]
-    : THEMES.leftBorder;
+  const theme = await getStorage(CHROME_SYNC_STORAGE_THEME_KEY);
 
   const options = document.querySelectorAll(".option-link");
 
