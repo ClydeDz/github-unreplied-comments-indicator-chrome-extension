@@ -1,0 +1,50 @@
+body {
+  background-color: antiquewhite;
+  font-family: monospace;
+  font-size: 18px;
+  max-width: 60%;
+  margin: auto;
+}
+body > div {
+  background-color: white;
+  padding: 12px;
+  margin-block: 12px;
+}
+.guci-selection-header {
+  align-items: center;
+  margin-block: 20px;
+}
+.guci-selection-header h2,
+.guci-selection-header a {
+  line-height: 20px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.guci-selection-header h2 {
+  margin-block: 0;
+  margin-right: 9px;
+  font-weight: bold;
+}
+.guci-selection-header img {
+  display: block;
+  width: 70%;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:visited {
+  color: blue;
+}
+footer {
+  margin-top: 20px;
+}
+.link-separator::after {
+  content: "/";
+  margin: 0 3px 0 6px;
+  opacity: 0.5;
+  color: grey;
+}
