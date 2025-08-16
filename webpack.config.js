@@ -31,8 +31,12 @@ module.exports = {
       patterns: [
         { from: "./src/manifest.json" },
         { from: "./src/options/options.html" },
-        { from: "./src/styles/background.css" },
-        { from: "./src/styles/options.css" },
+        {
+          from: "styles/**/*",
+          context: "src/",
+          to: "[name][ext]",
+          toType: "template",
+        },
         {
           from: "icons/*",
           to: path.resolve(__dirname, "dist"),
