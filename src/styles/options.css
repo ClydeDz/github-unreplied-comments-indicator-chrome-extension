@@ -48,6 +48,6 @@ footer {
 .link-separator::after {
   content: "/";
   margin: 0 3px 0 6px;
-  opacity: 0.5;
-  color: grey;
+  opacity: 0.8;
+  color: #000000;
 }

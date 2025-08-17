@@ -5,7 +5,7 @@ import {
 } from "../common/storage";
 
 const SELECTED_TEXT = "(Selected)";
-const UNSELECTED_TEXT = "(Unselected)";
+const UNSELECTED_TEXT = "(Select)";
 
 document.addEventListener("DOMContentLoaded", async function () {
   const theme = await getStorage(CHROME_SYNC_STORAGE_THEME_KEY);
